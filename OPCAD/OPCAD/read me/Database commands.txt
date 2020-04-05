@@ -1,0 +1,17 @@
+(How to create an SQLite3 Database 
+
+    -> sqlite3 W10Database.sql
+
+    -> create table entries(ID varchar(20) primary key, Password varchar(20));
+
+    -> insert into entries values ('vj_dhanda', '123vj');
+
+    -> insert into entries values ('tony_huang', '123tony');
+
+    -> insert into entries values ('jon_tyrell', '123jon');
+
+    -> select * from entries;
+
+    -> .quit
+
+

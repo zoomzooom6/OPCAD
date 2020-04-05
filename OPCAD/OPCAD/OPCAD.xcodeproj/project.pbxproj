@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B79FA1E239453BC00B9574A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA1D239453BC00B9574A /* AppDelegate.swift */; };
+		1B79FA20239453BC00B9574A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA1F239453BC00B9574A /* SceneDelegate.swift */; };
+		1B79FA22239453BC00B9574A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA21239453BC00B9574A /* ViewController.swift */; };
+		1B79FA25239453BC00B9574A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA23239453BC00B9574A /* Main.storyboard */; };
+		1B79FA27239453C000B9574A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA26239453C000B9574A /* Assets.xcassets */; };
+		1B79FA2A239453C000B9574A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA28239453C000B9574A /* LaunchScreen.storyboard */; };
+		1B79FA382394565E00B9574A /* pattern_orange_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA352394565E00B9574A /* pattern_orange_small.jpg */; };
+		1B79FA392394565E00B9574A /* pattern-lightblue-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA362394565E00B9574A /* pattern-lightblue-small.jpg */; };
+		1B79FA3A2394565E00B9574A /* pattern-navy-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA372394565E00B9574A /* pattern-navy-small.jpg */; };
+		1B79FA3C2394595400B9574A /* opcad-symbol.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA3B2394595400B9574A /* opcad-symbol.jpeg */; };
+		1B79FA3E23945E5F00B9574A /* Nextcloud_Logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA3D23945E5F00B9574A /* Nextcloud_Logo.svg.png */; };
+		1B79FA402394654500B9574A /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA3F2394654500B9574A /* MainMenuViewController.swift */; };
+		1B79FA42239473A000B9574A /* opcad icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA41239473A000B9574A /* opcad icon.jpeg */; };
+		1B79FA452394838300B9574A /* login.db in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA442394838300B9574A /* login.db */; };
+		1B79FA47239484FB00B9574A /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA46239484FB00B9574A /* MyData.swift */; };
+		1B79FA4923948B0500B9574A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA4823948B0500B9574A /* SignupViewController.swift */; };
+		1B79FA4B23948DEF00B9574A /* PasswordRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B79FA4A23948DEF00B9574A /* PasswordRecoveryViewController.swift */; };
+		1B79FA502396DE8100B9574A /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA4E2396DE8100B9574A /* calendar_icon.png */; };
+		1B79FA512396DE8100B9574A /* storage_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA4F2396DE8100B9574A /* storage_icon.png */; };
+		1B79FA532396E0F200B9574A /* chat_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA522396E0F200B9574A /* chat_icon.png */; };
+		1B79FA552396E2AD00B9574A /* reserve_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B79FA542396E2AD00B9574A /* reserve_icon.png */; };
+		AE422BFE23A0671C00CDC791 /* Map_Pin.png in Resources */ = {isa = PBXBuildFile; fileRef = AE422BFD23A0671C00CDC791 /* Map_Pin.png */; };
+		AE422C0123A06BB700CDC791 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE422C0023A06BB700CDC791 /* MapKit.framework */; };
+		AE422C0323A06BDE00CDC791 /* MapLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE422C0223A06BDE00CDC791 /* MapLocationsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B79FA1A239453BC00B9574A /* OPCAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPCAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B79FA1D239453BC00B9574A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B79FA1F239453BC00B9574A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B79FA21239453BC00B9574A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B79FA24239453BC00B9574A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B79FA26239453C000B9574A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B79FA29239453C000B9574A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B79FA2B239453C000B9574A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B79FA352394565E00B9574A /* pattern_orange_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern_orange_small.jpg; sourceTree = "<group>"; };
+		1B79FA362394565E00B9574A /* pattern-lightblue-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pattern-lightblue-small.jpg"; sourceTree = "<group>"; };
+		1B79FA372394565E00B9574A /* pattern-navy-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pattern-navy-small.jpg"; sourceTree = "<group>"; };
+		1B79FA3B2394595400B9574A /* opcad-symbol.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opcad-symbol.jpeg"; sourceTree = "<group>"; };
+		1B79FA3D23945E5F00B9574A /* Nextcloud_Logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nextcloud_Logo.svg.png; sourceTree = "<group>"; };
+		1B79FA3F2394654500B9574A /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		1B79FA41239473A000B9574A /* opcad icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opcad icon.jpeg"; sourceTree = "<group>"; };
+		1B79FA442394838300B9574A /* login.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = login.db; sourceTree = "<group>"; };
+		1B79FA46239484FB00B9574A /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		1B79FA4823948B0500B9574A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1B79FA4A23948DEF00B9574A /* PasswordRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRecoveryViewController.swift; sourceTree = "<group>"; };
+		1B79FA4E2396DE8100B9574A /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_icon.png; sourceTree = "<group>"; };
+		1B79FA4F2396DE8100B9574A /* storage_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storage_icon.png; sourceTree = "<group>"; };
+		1B79FA522396E0F200B9574A /* chat_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_icon.png; sourceTree = "<group>"; };
+		1B79FA542396E2AD00B9574A /* reserve_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reserve_icon.png; sourceTree = "<group>"; };
+		AE422BFD23A0671C00CDC791 /* Map_Pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Pin.png; sourceTree = "<group>"; };
+		AE422C0023A06BB700CDC791 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE422C0223A06BDE00CDC791 /* MapLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B79FA17239453BC00B9574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE422C0123A06BB700CDC791 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B79FA11239453BC00B9574A = {
+			isa = PBXGroup;
+			children = (
+				1B79FA1C239453BC00B9574A /* OPCAD */,
+				1B79FA1B239453BC00B9574A /* Products */,
+				AE422BFF23A06BB700CDC791 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B79FA1B239453BC00B9574A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA1A239453BC00B9574A /* OPCAD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B79FA1C239453BC00B9574A /* OPCAD */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA312394544200B9574A /* Classes */,
+				1B79FA322394544E00B9574A /* View Controllers */,
+				1B79FA332394545E00B9574A /* StoryBoards */,
+				1B79FA432394836100B9574A /* Databases */,
+				1B79FA342394547200B9574A /* Images */,
+				1B79FA2B239453C000B9574A /* Info.plist */,
+			);
+			path = OPCAD;
+			sourceTree = "<group>";
+		};
+		1B79FA312394544200B9574A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA1D239453BC00B9574A /* AppDelegate.swift */,
+				1B79FA1F239453BC00B9574A /* SceneDelegate.swift */,
+				1B79FA46239484FB00B9574A /* MyData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1B79FA322394544E00B9574A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA21239453BC00B9574A /* ViewController.swift */,
+				1B79FA3F2394654500B9574A /* MainMenuViewController.swift */,
+				1B79FA4823948B0500B9574A /* SignupViewController.swift */,
+				1B79FA4A23948DEF00B9574A /* PasswordRecoveryViewController.swift */,
+				AE422C0223A06BDE00CDC791 /* MapLocationsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1B79FA332394545E00B9574A /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA28239453C000B9574A /* LaunchScreen.storyboard */,
+				1B79FA23239453BC00B9574A /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1B79FA342394547200B9574A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE422BFD23A0671C00CDC791 /* Map_Pin.png */,
+				1B79FA542396E2AD00B9574A /* reserve_icon.png */,
+				1B79FA522396E0F200B9574A /* chat_icon.png */,
+				1B79FA4E2396DE8100B9574A /* calendar_icon.png */,
+				1B79FA4F2396DE8100B9574A /* storage_icon.png */,
+				1B79FA41239473A000B9574A /* opcad icon.jpeg */,
+				1B79FA3B2394595400B9574A /* opcad-symbol.jpeg */,
+				1B79FA3D23945E5F00B9574A /* Nextcloud_Logo.svg.png */,
+				1B79FA352394565E00B9574A /* pattern_orange_small.jpg */,
+				1B79FA362394565E00B9574A /* pattern-lightblue-small.jpg */,
+				1B79FA372394565E00B9574A /* pattern-navy-small.jpg */,
+				1B79FA26239453C000B9574A /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1B79FA432394836100B9574A /* Databases */ = {
+			isa = PBXGroup;
+			children = (
+				1B79FA442394838300B9574A /* login.db */,
+			);
+			path = Databases;
+			sourceTree = "<group>";
+		};
+		AE422BFF23A06BB700CDC791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE422C0023A06BB700CDC791 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B79FA19239453BC00B9574A /* OPCAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B79FA2E239453C000B9574A /* Build configuration list for PBXNativeTarget "OPCAD" */;
+			buildPhases = (
+				1B79FA16239453BC00B9574A /* Sources */,
+				1B79FA17239453BC00B9574A /* Frameworks */,
+				1B79FA18239453BC00B9574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPCAD;
+			productName = OPCAD;
+			productReference = 1B79FA1A239453BC00B9574A /* OPCAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B79FA12239453BC00B9574A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Vijay Dhanda";
+				TargetAttributes = {
+					1B79FA19239453BC00B9574A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B79FA15239453BC00B9574A /* Build configuration list for PBXProject "OPCAD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B79FA11239453BC00B9574A;
+			productRefGroup = 1B79FA1B239453BC00B9574A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B79FA19239453BC00B9574A /* OPCAD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B79FA18239453BC00B9574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B79FA512396DE8100B9574A /* storage_icon.png in Resources */,
+				1B79FA552396E2AD00B9574A /* reserve_icon.png in Resources */,
+				1B79FA502396DE8100B9574A /* calendar_icon.png in Resources */,
+				1B79FA3A2394565E00B9574A /* pattern-navy-small.jpg in Resources */,
+				1B79FA392394565E00B9574A /* pattern-lightblue-small.jpg in Resources */,
+				1B79FA382394565E00B9574A /* pattern_orange_small.jpg in Resources */,
+				1B79FA2A239453C000B9574A /* LaunchScreen.storyboard in Resources */,
+				1B79FA42239473A000B9574A /* opcad icon.jpeg in Resources */,
+				1B79FA27239453C000B9574A /* Assets.xcassets in Resources */,
+				1B79FA532396E0F200B9574A /* chat_icon.png in Resources */,
+				1B79FA3E23945E5F00B9574A /* Nextcloud_Logo.svg.png in Resources */,
+				1B79FA452394838300B9574A /* login.db in Resources */,
+				AE422BFE23A0671C00CDC791 /* Map_Pin.png in Resources */,
+				1B79FA3C2394595400B9574A /* opcad-symbol.jpeg in Resources */,
+				1B79FA25239453BC00B9574A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B79FA16239453BC00B9574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE422C0323A06BDE00CDC791 /* MapLocationsViewController.swift in Sources */,
+				1B79FA4923948B0500B9574A /* SignupViewController.swift in Sources */,
+				1B79FA402394654500B9574A /* MainMenuViewController.swift in Sources */,
+				1B79FA4B23948DEF00B9574A /* PasswordRecoveryViewController.swift in Sources */,
+				1B79FA22239453BC00B9574A /* ViewController.swift in Sources */,
+				1B79FA1E239453BC00B9574A /* AppDelegate.swift in Sources */,
+				1B79FA47239484FB00B9574A /* MyData.swift in Sources */,
+				1B79FA20239453BC00B9574A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B79FA23239453BC00B9574A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B79FA24239453BC00B9574A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B79FA28239453C000B9574A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B79FA29239453C000B9574A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B79FA2C239453C000B9574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B79FA2D239453C000B9574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B79FA2F239453C000B9574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OPCAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sheridan.OPCAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B79FA30239453C000B9574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OPCAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sheridan.OPCAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B79FA15239453BC00B9574A /* Build configuration list for PBXProject "OPCAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B79FA2C239453C000B9574A /* Debug */,
+				1B79FA2D239453C000B9574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B79FA2E239453C000B9574A /* Build configuration list for PBXNativeTarget "OPCAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B79FA2F239453C000B9574A /* Debug */,
+				1B79FA30239453C000B9574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B79FA12239453BC00B9574A /* Project object */;
+}
